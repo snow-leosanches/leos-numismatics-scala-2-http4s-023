@@ -28,7 +28,7 @@ lazy val root = (project in file("."))
     }
   )
 
-libraryDependencies += "com.snowplowanalytics" %% "snowplow-scala-tracker" % "2.0.0"
+libraryDependencies += "com.snowplowanalytics" %% "snowplow-scala-tracker-core" % "2.0.0"
 
 // If you plan to use the http4s emitter with an Ember client
 libraryDependencies += "com.snowplowanalytics" %% "snowplow-scala-tracker-emitter-http4s" % "2.0.0"

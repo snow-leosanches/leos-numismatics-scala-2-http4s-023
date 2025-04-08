@@ -32,7 +32,7 @@ object Leosnumismaticsscala2http4s023Server {
       _ <- 
         EmberServerBuilder.default[F]
           .withHost(ipv4"0.0.0.0")
-          .withPort(port"8080")
+          .withPort(port"8383")
           .withHttpApp(finalHttpApp)
           .build
     } yield ()
